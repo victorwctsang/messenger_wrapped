@@ -2,6 +2,10 @@
 
 Messenger Chat Wrapped 2024 is a locally deployed Streamlit app that generates insightful summary statistics for a selected Facebook Messenger chat. Inspired by Spotify Wrapped, this project aims to visualize some simple summary statistics of chat activity as a webapp.
 
+## Example
+
+[Getting summary statistics for a test conversation.](https://github.com/user-attachments/assets/cdd818da-074a-487a-a85f-dd397fdfdfb9)
+
 ## Features
 - **Total Messages Overview**: Displays the total messages exchanged and the average daily messages in the chat.
 - **Messages by Person**: Bar chart highlighting the most active participants in the conversation.
@@ -40,8 +44,6 @@ Messenger Chat Wrapped 2024 is a locally deployed Streamlit app that generates i
 4. Input the folder with all your message data (e.g. `data/messages/inbox`) through the app interface.
 5. Select a chat of interest (they're sorted in descending order of number of messages).
 6. Explore the visualized chat statistics!
-
-## Example Output (TODO)
 
 ## Future Improvements
 * Add tests and more detailed error handling.
