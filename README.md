@@ -16,6 +16,15 @@ Messenger Chat Wrapped 2024 is a locally deployed Streamlit app that generates i
 - **Chat Activity Over Time**: Line graph showcasing activity trends throughout the year.
 - **Peak Chatting Hours**: Radial plot that visualizes the chat's most active hours.
 
+## Future Improvements
+* Add tests and more detailed error handling.
+* Add a debug mode for easier development.
+* Add an "upload file" version of this app, so users can upload individual files/folders.
+* Deploy this as a webapp (currently this only works locally, since streamlit doesn't currently support folder selection).
+* Adapt this into a Facebook app, so users can load their chats without downloading from facebook.
+* Introduce an API option for data loading, so users can load their chats without downloading from facebook.
+* Add a desensitized option, which will remove names and words from the output.
+
 ## Getting Started
 
 ### Prerequisites
@@ -44,15 +53,6 @@ Messenger Chat Wrapped 2024 is a locally deployed Streamlit app that generates i
 4. Input the folder with all your message data (e.g. `data/messages/inbox`) through the app interface.
 5. Select a chat of interest (they're sorted in descending order of number of messages).
 6. Explore the visualized chat statistics!
-
-## Future Improvements
-* Add tests and more detailed error handling.
-* Add a debug mode for easier development.
-* Add an "upload file" version of this app, so users can upload individual files/folders.
-* Deploy this as a webapp (currently this only works locally, since streamlit doesn't currently support folder selection).
-* Adapt this into a Facebook app, so users can load their chats without downloading from facebook.
-* Introduce an API option for data loading, so users can load their chats without downloading from facebook.
-* Add a desensitized option, which will remove names and words from the output.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the app.
