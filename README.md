@@ -52,6 +52,7 @@ Messenger Chat Wrapped 2024 is a locally deployed Streamlit app that generates i
 * Deploy this as a webapp (currently this only works locally, since streamlit doesn't currently support folder selection).
 * Adapt this into a Facebook app, so users can load their chats without downloading from facebook.
 * Introduce an API option for data loading, so users can load their chats without downloading from facebook.
+* Add a desensitized option, which will remove names and words from the output.
 
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests to enhance the app.
